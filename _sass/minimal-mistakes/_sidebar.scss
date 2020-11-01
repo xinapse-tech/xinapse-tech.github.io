@@ -119,6 +119,7 @@
   vertical-align: top;
   width: 36px;
   height: 36px;
+  padding-bottom: 7px;
 
   @include breakpoint($large) {
     display: block;
@@ -127,14 +128,22 @@
   }
 
   img {
-    max-width: 110px;
+    max-width: 50px;
     border-radius: 50%;
 
     @include breakpoint($large) {
-      padding: 5px;
       border: 1px solid $border-color;
     }
   }
+
+  p {
+    display: inline;
+    &.custom__next-avatar {
+      font-size: 15px;
+    }
+
+  }
+
 }
 
 .author__content {

@@ -40,6 +40,13 @@ h1 {
 
 h2 {
   font-size: $h-size-2;
+
+  &.archive__item-title {
+    margin-top: 0;
+    a {
+      font-size: 35px;
+    }
+  }
 }
 
 h3 {
@@ -65,6 +72,9 @@ small,
 
 p {
   margin-bottom: 1.3em;
+  &.archive__item-excerpt {
+    margin-bottom: 4em;
+  }
 }
 
 u,
@@ -126,16 +136,17 @@ blockquote {
 /* links */
 
 a {
+  text-decoration: none;
   &:focus {
     @extend %tab-focus;
   }
 
   &:visited {
-    color: $link-color-visited;
+    color: #242423; //$link-color-visited;
   }
 
   &:hover {
-    color: $link-color-hover;
+    color: #242423;//$link-color-hover;
     outline: 0;
   }
 }

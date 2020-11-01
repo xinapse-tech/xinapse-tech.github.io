@@ -1,0 +1,18 @@
+# /_data/authors.yml
+
+
+조현근:
+  name: "조현근"
+  avatar: "/assets/images/hyungeunnim.png"
+
+이형로:
+  name: "이형로"
+  avatar: "/assets/images/hyungronim.png"
+
+남용욱:
+  name: "남용욱"
+  avatar: "/assets/images/yonguknim.png"
+
+김인영:
+  name: "김인영"
+  avatar: "/assets/images/inyoungnim.png"

@@ -187,10 +187,14 @@ body {
       padding-left: 1em;
       padding-right: 1em;
 
+      // @include breakpoint($medium) {
+      // margin-left: 200px;
+      // }
       @include breakpoint($x-large) {
-        max-width: $x-large;
+        max-width: $max-width;
       }
     }
+
 
     .page__title,
     .page__meta,
@@ -286,6 +290,10 @@ body {
 
   p {
     margin: 0;
+
+    &.avatar {
+      font-size: 20px;
+    }
   }
 
   a {

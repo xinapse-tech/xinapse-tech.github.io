@@ -5,21 +5,24 @@
 .archive {
   margin-top: 1em;
   margin-bottom: 2em;
+  padding-left: 3em;
 
   @include breakpoint($large) {
     float: right;
     width: calc(100% - #{$right-sidebar-width-narrow});
-    padding-right: $right-sidebar-width-narrow;
+    padding-right: 100px;
   }
 
   @include breakpoint($x-large) {
     width: calc(100% - #{$right-sidebar-width});
-    padding-right: $right-sidebar-width;
+    padding-right: 100px;
   }
 }
 
 .archive__item {
   position: relative;
+  border-bottom: 1px solid #f2f3f3;
+  margin-bottom: 50px;
 
   a {
     position: relative;
@@ -32,7 +35,7 @@
 }
 
 .archive__subtitle {
-  margin: 1.414em 0 0.5em;
+  margin: 1.414em 0 3em;
   padding-bottom: 0.5em;
   font-size: $type-size-5;
   color: $muted-text-color;
@@ -127,7 +130,7 @@
 .list__item {
   .page__meta {
     margin: 0 0 4px;
-    font-size: 0.6em;
+    font-size: 15px;
   }
 }
 
