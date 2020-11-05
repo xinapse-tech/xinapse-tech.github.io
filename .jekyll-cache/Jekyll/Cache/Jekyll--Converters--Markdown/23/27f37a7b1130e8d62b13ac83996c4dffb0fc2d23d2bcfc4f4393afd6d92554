@@ -1,0 +1,16 @@
+I"�<ul class="toc__menu">
+  <li><a href="#generative-adversarial-network">Generative Adversarial Network</a>
+    <ul>
+      <li><a href="#discriminator-와-generator">Discriminator 와 Generator</a></li>
+      <li><a href="#적대적으로-학습하는-법">적대적으로 학습하는 법</a>
+        <ul>
+          <li><a href="#딥러닝-모델-학습-구조">딥러닝 모델 학습 구조</a></li>
+          <li><a href="#gan의-학습-방식">GAN의 학습 방식</a></li>
+          <li><a href="#discriminator의-학습">Discriminator의 학습</a></li>
+          <li><a href="#generator의-학습">Generator의 학습</a></li>
+        </ul>
+      </li>
+    </ul>
+  </li>
+</ul>
+:ET

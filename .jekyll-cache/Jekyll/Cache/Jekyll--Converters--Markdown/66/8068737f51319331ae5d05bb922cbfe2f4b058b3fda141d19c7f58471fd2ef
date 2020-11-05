@@ -1,7 +1,7 @@
-I"�<ul class="toc__menu">
+I"�<ul class="toc__menu">
   <li><a href="#generative-adversarial-network">Generative Adversarial Network</a>
     <ul>
-      <li><a href="#generator와-discriminator">Generator와 Discriminator</a></li>
+      <li><a href="#discriminator-와-generator">Discriminator 와 Generator</a></li>
       <li><a href="#적대적으로-학습하는-법">적대적으로 학습하는 법</a></li>
       <li><a href="#in-python-code-with-pytorch">In Python Code with Pytorch</a></li>
     </ul>

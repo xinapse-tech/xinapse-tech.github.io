@@ -1,6 +1,6 @@
 var store = [{
         "title": "GAN이 무엇인가요?",
-        "excerpt":"이번 포스트에서는 GAN의 개념과 작동원리를 수식 및 코드를 동원해 설명해보려 합니다. GAN은 여러 분야에서 널리쓰이지만, 시각적인 이해를 돕고자 이미지를 예로 들어서 input부터 output까지 어떻게 동작하는지 알아보겠습니다. Generative Adversarial Network [버스 한대가 여러 대가 될 수 있는 사진] 제목에서도 알 수 있듯, GAN은 Generative, 생성모델입니다. 만약 버스에 대한 데이터를 가지고 있다면...","categories": ["Computer Vision"],
+        "excerpt":"이번 포스트에서는 GAN의 개념과 작동원리를 수식 및 코드를 동원해 설명해보려 합니다. GAN의 핵심은 Generator와 Discriminator를 두고 이 둘을 적대적으로 학습시키겠다는 것인데, 이를 수식 및 시각적자료를 활용하여 설명합니다. Generative Adversarial Network 제목에서도 알 수 있듯, GAN은 Generative, 생성모델입니다. 만약 버스에 대한 데이터를 가지고 있다면 GAN에 버스이미지를 학습시키고, 학습된 버스 이미지와 비슷한...","categories": ["Computer Vision"],
         "tags": [],
         "url": "http://localhost:4000/computer%20vision/first_post/",
         "teaser": null
